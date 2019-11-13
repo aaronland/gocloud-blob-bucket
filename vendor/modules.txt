@@ -70,7 +70,7 @@ go.opencensus.io/internal
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/tracestate
 go.opencensus.io
-# gocloud.dev v0.16.0
+# gocloud.dev v0.18.0
 gocloud.dev/blob
 gocloud.dev/blob/fileblob
 gocloud.dev/blob/memblob
@@ -97,7 +97,7 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/transform
-# golang.org/x/xerrors v0.0.0-20190513163551-3ee3066db522
+# golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 golang.org/x/xerrors
 golang.org/x/xerrors/internal
 # google.golang.org/genproto v0.0.0-20190620144150-6af8c5fc6601
