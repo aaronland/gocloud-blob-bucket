@@ -1,21 +1,12 @@
 # gocloud-blob-bucket
 
-This package is a thin wrapper around the [Go Cloud](https://gocloud.dev/howto/blob/) package in order to be able to specify AWS S3 credentials using string values. Those values are:
+This package is a thin wrapper around the [Go Cloud](https://gocloud.dev/howto/blob/) package in order to be able to specify AWS S3 credentials using string values.
 
-* `env:` – read credentials from AWS defined environment variables.
-* `iam:` – assume AWS IAM credentials).
-* `{AWS_PROFILE_NAME}`.
-* `{AWS_CREDENTIALS_PATH}:{AWS_PROFILE_NAME}`.
+## Important
 
-For example:
-
-```
-s3:///bucket-name?region=us-east-1&credentials=iam:
-```
-
-Additionally, if a Go Cloud URI contains a `prefix=` query parameter this package will automatically return a `blob.PrefixedBucket`.
+This package has been deprecated and will no longer be updated. The S3 functionality has been moved in to the [go-cloud-s3blob](https://github.com/aaronland/go-cloud-s3blob) package.
 
 ## See also
 
 * https://gocloud.dev/howto/blob/
-* https://github.com/aaronland/go-aws-session
+* https://github.com/aaronland/go-cloud-s3blob
